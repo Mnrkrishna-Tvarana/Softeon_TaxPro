@@ -1,0 +1,19 @@
+<customlist scriptid="customlisttss_return_type">
+  <description></description>
+  <isinactive>F</isinactive>
+  <ismatrixoption>F</ismatrixoption>
+  <isordered>T</isordered>
+  <name>TDS Return Type</name>
+  <customvalues>
+    <customvalue scriptid="val_53751_t2682069_845">
+      <abbreviation>2</abbreviation>
+      <isinactive>F</isinactive>
+      <value>26Q</value>
+    </customvalue>
+    <customvalue scriptid="val_53752_t2682069_578">
+      <abbreviation>2</abbreviation>
+      <isinactive>F</isinactive>
+      <value>27Q</value>
+    </customvalue>
+  </customvalues>
+</customlist>

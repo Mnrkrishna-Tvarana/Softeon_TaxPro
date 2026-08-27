@@ -1,0 +1,19 @@
+<customlist scriptid="customlist_tss_payment_gst_under_exp">
+  <description>This List will show Payment of GST Under Export if &apos;With Payment of IGST&apos; or &apos;Without Payment of IGST&apos;</description>
+  <isinactive>F</isinactive>
+  <ismatrixoption>F</ismatrixoption>
+  <isordered>T</isordered>
+  <name>GST Under Export</name>
+  <customvalues>
+    <customvalue scriptid="val_62941_t2682070_645">
+      <abbreviation>W</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Without LUT</value>
+    </customvalue>
+    <customvalue scriptid="val_62942_t2682070_723">
+      <abbreviation>W</abbreviation>
+      <isinactive>F</isinactive>
+      <value>With LUT</value>
+    </customvalue>
+  </customvalues>
+</customlist>

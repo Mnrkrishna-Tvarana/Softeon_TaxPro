@@ -1,0 +1,34 @@
+<customlist scriptid="customlist_tss_tax_liable">
+  <description>This list will show the list of tax liable</description>
+  <isinactive>F</isinactive>
+  <ismatrixoption>F</ismatrixoption>
+  <isordered>T</isordered>
+  <name>Tax Liable Type</name>
+  <customvalues>
+    <customvalue scriptid="val_63427_t2682070_117">
+      <abbreviation>R</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Regular</value>
+    </customvalue>
+    <customvalue scriptid="val_63428_t2682070_916">
+      <abbreviation>N</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Nil Rated</value>
+    </customvalue>
+    <customvalue scriptid="val_63429_t2682070_329">
+      <abbreviation>E</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Exempted</value>
+    </customvalue>
+    <customvalue scriptid="val_63430_t2682070_238">
+      <abbreviation>N</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Non GST Supplies</value>
+    </customvalue>
+    <customvalue scriptid="val_63431_t2682070_851">
+      <abbreviation>R</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Regular/Non-Taxable</value>
+    </customvalue>
+  </customvalues>
+</customlist>

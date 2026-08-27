@@ -1,0 +1,10 @@
+<centertab scriptid="custcentertab_tss_acc_center_indiatax">
+  <allcustomers>F</allcustomers>
+  <allemployees>F</allemployees>
+  <allpartners>F</allpartners>
+  <allroles>F</allroles>
+  <allvendors>F</allvendors>
+  <audslctrole></audslctrole>
+  <center>ACCOUNTCENTER</center>
+  <label>India Taxation</label>
+</centertab>

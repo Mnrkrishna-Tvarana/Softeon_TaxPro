@@ -1,0 +1,45 @@
+<!-- This file is used for hiding the content of your SuiteApp when deploying to a NetSuite account. -->
+<!-- The configuration below hides all content except for the files and objects specified under the
+apply tag. Use the commented lines as examples. -->
+<!-- This configuration is only applied when the "Apply Installation Preferences" option is provided
+through SuiteCloud SDK. Otherwise this file is ignored. -->
+<!-- For more information, see
+https://system.netsuite.com/app/help/helpcenter.nl?fid=section_1515950176.html -->
+
+<preference type="HIDING" defaultAction="UNHIDE">
+    <apply action="HIDE">
+        <!-- <path>~/FileCabinet/SuiteApps/xxx.xxx.xxx/MyScript.js</path> -->
+        <!-- <path>~/FileCabinet/SuiteApps/com.tvarana.indiantax/Custom Plugin Scripts/TSS ITC
+        Plugin.js</path>
+        <path>~/FileCabinet/SuiteApps/com.tvarana.indiantax/Custom Plugin Scripts/TSS RCM Plugin.js</path> -->
+        <!-- <path>~/FileCabinet/SuiteApps/com.tvarana.indiantax/Client
+        scripts/CLI_TSS_GST.js</path> -->
+        <!-- <path>~/FileCabinet/SuiteApps/com.tvarana.indiantax/Client scripts/CLI TSS TDS
+        New.js</path> -->
+        <!-- <path>~/FileCabinet/SuiteApps/com.tvarana.indiantax/User Event Scripts/TSS UE TDS
+        New.js</path>
+        <path>~/FileCabinet/SuiteApps/com.tvarana.indiantax/User Event
+        Scripts/UES_TSS_Set_Codes_on_Check.js</path> -->
+
+        <path>~/FileCabinet/SuiteApps/com.tvarana.indiantax/Scheduled Scripts/SCH TSS TaxPro Daily Maintenance.js</path>
+        <path>~/FileCabinet/SuiteApps/com.tvarana.indiantax/Other Files/TSS TaxPro Server Helper.js</path>
+        <path>~/FileCabinet/SuiteApps/com.tvarana.indiantax/User Event Scripts/UE TSS Indian Tax Transaction.js</path>
+        <path>~/FileCabinet/SuiteApps/com.tvarana.indiantax/User Event Scripts/UES_TSS_Location_Validation.js</path>
+        <path>~/FileCabinet/SuiteApps/com.tvarana.indiantax/User Event Scripts/UES_TSS_Creating_TaxGroup_record.js</path>
+        <path>~/FileCabinet/SuiteApps/com.tvarana.indiantax/User Event Scripts/TSS UE GST on Journal.js</path>
+        <path>~/FileCabinet/SuiteApps/com.tvarana.indiantax/User Event Scripts/TSS UE Vendor Tax Validations.js</path>
+        <path>~/FileCabinet/SuiteApps/com.tvarana.indiantax/User Event Scripts/TSS UE TDS On Sales.js</path>
+        <path>~/FileCabinet/SuiteApps/com.tvarana.indiantax/User Event Scripts/UE TSS India Tax VPP.js</path>
+        <path>~/FileCabinet/SuiteApps/com.tvarana.indiantax/User Event Scripts/TSS UE Customer Deposit.js</path>
+        <path>~/FileCabinet/SuiteApps/com.tvarana.indiantax/User Event Scripts/UE TSS GST On Cust Refund.js</path>
+        <path>~/FileCabinet/SuiteApps/com.tvarana.indiantax/Custom Plugin Scripts/TSS ITC Plugin.js</path>
+        <path>~/FileCabinet/SuiteApps/com.tvarana.indiantax/Custom Plugin Scripts/TSS RCM Plugin.js</path>
+        <path>~/FileCabinet/SuiteApps/com.tvarana.indiantax/Custom Plugin Scripts/TSS Plugin Customer Deposit.js</path>
+        <path>~/FileCabinet/SuiteApps/com.tvarana.indiantax/Custom Plugin Scripts/TSS GL GST Calculations.js</path>
+        <path>~/FileCabinet/SuiteApps/com.tvarana.indiantax/Custom Plugin Scripts/TSS TDS VPP Plugin.js</path>
+        <path>~/FileCabinet/SuiteApps/com.tvarana.indiantax/Suitelet Scripts/TSS SL TDS Payments Criteria.js</path>
+
+
+
+    </apply>
+</preference>

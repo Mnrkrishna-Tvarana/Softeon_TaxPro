@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_tss_sl_vppa_reconcil_report">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>TSS SL VPPA Reconciliation Report</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteApps/com.tvarana.indiantax/Suitelet Scripts/TSS_SL_VPPA_Reconciliation.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_tss_sl_vppa_reconcil_report">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>TSS SL VPPA Reconciliation Report</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

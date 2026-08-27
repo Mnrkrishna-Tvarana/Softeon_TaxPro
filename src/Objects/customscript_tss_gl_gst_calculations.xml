@@ -1,0 +1,13 @@
+<customglplugin scriptid="customscript_tss_gl_gst_calculations">
+  <description></description>
+  <isinactive>F</isinactive>
+  <loglevel>DEBUG</loglevel>
+  <name>TSS GL GST Calculations</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <runasrole></runasrole>
+  <scriptfile>[/SuiteApps/com.tvarana.indiantax/Custom Plugin Scripts/TSS GL GST Calculations.js]</scriptfile>
+  <status>RELEASED</status>
+</customglplugin>

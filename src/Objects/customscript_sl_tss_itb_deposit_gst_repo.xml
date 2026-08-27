@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_sl_tss_itb_deposit_gst_repo">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>SL TSS Customer Deposit GST Report</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteApps/com.tvarana.indiantax/Suitelet Scripts/SL TSS Customer Deposit GST Report.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy1">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>SL TSS Customer Deposit GST Report</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

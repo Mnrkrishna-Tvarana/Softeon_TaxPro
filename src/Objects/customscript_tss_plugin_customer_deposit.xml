@@ -1,0 +1,13 @@
+<customglplugin scriptid="customscript_tss_plugin_customer_deposit">
+  <description></description>
+  <isinactive>F</isinactive>
+  <loglevel>DEBUG</loglevel>
+  <name>TSS Plugin Customer Deposit</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <runasrole></runasrole>
+  <scriptfile>[/SuiteApps/com.tvarana.indiantax/Custom Plugin Scripts/TSS Plugin Customer Deposit.js]</scriptfile>
+  <status>RELEASED</status>
+</customglplugin>

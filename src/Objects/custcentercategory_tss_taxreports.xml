@@ -1,0 +1,67 @@
+<centercategory scriptid="custcentercategory_tss_taxreports">
+  <center>BASIC</center>
+  <centertab>[scriptid=custcentertab_tss_indiantax]</centertab>
+  <label>Indian tax reports</label>
+  <links>
+    <link>
+      <linklabel>GSTR1</linklabel>
+      <linkobject>[scriptid=customsearch_tss_gstr1]</linkobject>
+      <linktasktype>SRCH_RSLT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>GSTR 3B Eligible</linklabel>
+      <linkobject>[scriptid=customsearch_tss_gstr3b_eligible]</linkobject>
+      <linktasktype>SRCH_RSLT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>GSTR 3B Ineligible</linklabel>
+      <linkobject>[scriptid=customsearch_tss_gstr3b_ineligble]</linkobject>
+      <linktasktype>SRCH_RSLT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>GSTR 3B </linklabel>
+      <linkobject>[scriptid=customsearch_tss_tax_gstr3b_detail]</linkobject>
+      <linktasktype>SRCH_RSLT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>GST RCM Transactions</linklabel>
+      <linkobject>[scriptid=customsearch_tss_rcm_]</linkobject>
+      <linktasktype>SRCH_RSLT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>TDS Report</linklabel>
+      <linkobject>[scriptid=customsearch_tss_tds_report]</linkobject>
+      <linktasktype>SRCH_RSLT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>TDS Report Detail</linklabel>
+      <linkobject>[scriptid=customsearch_tss_tds_report_2]</linkobject>
+      <linktasktype>SRCH_RSLT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>VPP TDS Reconciliation Report</linklabel>
+      <linkobject>[scriptid=customscript_tss_sl_vppa_reconcil_report.customdeploy_tss_sl_vppa_reconcil_report]</linkobject>
+      <linktasktype>SCRIPT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>VPP GST Reconciliation Report</linklabel>
+      <linkobject>[scriptid=customscript_tss_sl_vendor_prepayment_gs.customdeploy_tss_sl_vendor_prepayment_gs]</linkobject>
+      <linktasktype>SCRIPT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>Deposit GST Reconciliation</linklabel>
+      <linkobject>[scriptid=customscript_sl_tss_itb_deposit_gst_repo.customdeploy1]</linkobject>
+      <linktasktype>SCRIPT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+  </links>
+</centercategory>

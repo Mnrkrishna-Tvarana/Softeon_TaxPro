@@ -1,0 +1,349 @@
+/**
+ * @NApiVersion 2.x
+ * @NScriptType ClientScript
+ * @NModuleScope SameAccount
+ */
+/**
+ * Script Name               : CLI TSS GST STATE Validations
+ * Script Author             : MNR Krishna
+ * Script Type               : Client Script
+ * Script Version            : 2.0
+ * Script Created date       : 05/06/2023
+ * 
+ * Script Last Modified Date : ----
+ * Script Last Modified By   : ----
+ * Script Comments           : ----
+ * 
+ * Script Description        :  Script restricts the new creation of GST State Master Record with Duplicates and some validations on fields.
+ */
+define(['N/currentRecord', 'N/search'],
+    /**
+     * @param{currentRecord} currentRecord
+     */
+    function (currentRecord, search) {
+
+        /**
+         * Function to be executed after page is initialized.
+         *
+         * @param {Object} scriptContext
+         * @param {Record} scriptContext.currentRecord - Current form record
+         * @param {string} scriptContext.mode - The mode in which the record is being accessed (create, copy, or edit)
+         *
+         * @since 2015.2
+         */
+        function pageInit(scriptContext) {
+
+        }
+
+        /**
+         * Function to be executed when field is changed.
+         *
+         * @param {Object} scriptContext
+         * @param {Record} scriptContext.currentRecord - Current form record
+         * @param {string} scriptContext.sublistId - Sublist name
+         * @param {string} scriptContext.fieldId - Field name
+         * @param {number} scriptContext.lineNum - Line number. Will be undefined if not a sublist or matrix field
+         * @param {number} scriptContext.columnNum - Line number. Will be undefined if not a matrix field
+         *
+         * @since 2015.2
+         */
+        function fieldChanged(scriptContext) {
+            try {
+                if (scriptContext.fieldId == 'custrecord_tss_state_name') {
+                    var isDuplicate = false;
+                    var current_record = scriptContext.currentRecord;
+                    var state_name = current_record.getText({ fieldId: 'custrecord_tss_state_name' });
+
+                    var rec_id = current_record.id;
+                    if (_logValidation(state_name)) {
+                        var a_Filters = new Array();
+                        var a_Columns = new Array();
+                        a_Filters.push(search.createFilter({
+                            name: 'isinactive',
+                            operator: 'is',
+                            values: 'F'
+                        }))
+                        a_Filters.push(search.createFilter({
+                            name: 'name',
+                            operator: 'is',
+                            values: state_name
+                        }));
+                        a_Columns.push(search.createColumn({ name: 'internalid' }));
+                        var name_search = search.create({
+                            type: 'customrecord_tss_gst_state_master',
+                            filters: a_Filters,
+                            columns: a_Columns
+                        });
+                        name_search.run().each(function (result) {
+                            var s_InternalID = result.getValue({
+                                name: 'internalid'
+                            });
+                            if (s_InternalID != rec_id) {
+                                isDuplicate = true;
+                                return false;
+                            }
+                            return true;
+                        });
+                        log.debug("Is State Name Duplicate  in fieldChanged", isDuplicate);
+                        if (isDuplicate != false) {
+                            alert('User cannot enter duplicate record for State Master. The State Name is already exists : ' + state_name);
+                            current_record.setValue({
+                                fieldId: 'custrecord_tss_state_name',
+                                value: null,
+                                //ignoreFieldChange: false,
+                                //forceSyncSourcing: false
+                            });
+                        }
+                        /*else {
+                            current_record.setValue({
+                                fieldId: 'name',
+                                value: state_name,
+                                //ignoreFieldChange: false,
+                                //forceSyncSourcing: false
+                            });
+                        }*/
+                    }
+
+                }
+
+            }
+            catch (e) {
+                log.error("Error in fieldChanged", e);
+            }
+
+        }
+
+        /**
+         * Function to be executed when field is slaved.
+         *
+         * @param {Object} scriptContext
+         * @param {Record} scriptContext.currentRecord - Current form record
+         * @param {string} scriptContext.sublistId - Sublist name
+         * @param {string} scriptContext.fieldId - Field name
+         *
+         * @since 2015.2
+         */
+        function postSourcing(scriptContext) {
+
+        }
+
+        /**
+         * Function to be executed after sublist is inserted, removed, or edited.
+         *
+         * @param {Object} scriptContext
+         * @param {Record} scriptContext.currentRecord - Current form record
+         * @param {string} scriptContext.sublistId - Sublist name
+         *
+         * @since 2015.2
+         */
+        function sublistChanged(scriptContext) {
+
+        }
+
+        /**
+         * Function to be executed after line is selected.
+         *
+         * @param {Object} scriptContext
+         * @param {Record} scriptContext.currentRecord - Current form record
+         * @param {string} scriptContext.sublistId - Sublist name
+         *
+         * @since 2015.2
+         */
+        function lineInit(scriptContext) {
+
+        }
+
+        /**
+         * Validation function to be executed when field is changed.
+         *
+         * @param {Object} scriptContext
+         * @param {Record} scriptContext.currentRecord - Current form record
+         * @param {string} scriptContext.sublistId - Sublist name
+         * @param {string} scriptContext.fieldId - Field name
+         * @param {number} scriptContext.lineNum - Line number. Will be undefined if not a sublist or matrix field
+         * @param {number} scriptContext.columnNum - Line number. Will be undefined if not a matrix field
+         *
+         * @returns {boolean} Return true if field is valid
+         *
+         * @since 2015.2
+         */
+        function validateField(scriptContext) {
+            try {
+                if (scriptContext.fieldId == 'custrecord_tss_tin') {
+                    var current_record = scriptContext.currentRecord;
+                    var TIN = current_record.getValue({ fieldId: 'custrecord_tss_tin' })
+                    if (_logValidation(TIN)) {
+                        var s_State_Code = /^(\d{2})$/;
+                        if (TIN.search(s_State_Code) == -1) {
+                            alert("This is Invalid GST State Code No. Please enter The valid GST State Code No ,\n * GST State Code Length 2 Character \n * First Two Numeric from 0 to 9 ");
+                            current_record.setValue({
+                                fieldId: 'custrecord_tss_tin',
+                                value: null,
+                                //ignoreFieldChange: false,
+                                //forceSyncSourcing: false
+                            });
+                        }
+
+                    }
+
+                }
+
+
+                if (scriptContext.fieldId == 'custrecord_tss_state_code') {
+                    var current_record = scriptContext.currentRecord;
+                    var state_code = current_record.getValue({ fieldId: 'custrecord_tss_state_code' })
+                    if (_logValidation(state_code)) {
+                        var s_State_Code = /^([A-Z]{2})$/;
+                        if (state_code.search(s_State_Code) == -1) {
+                            alert("This is Invalid Short Name. Please enter The valid Short Name ,\n * Short Name Length 2 Character \n * First Two Character from A to Z  ");
+                            current_record.setValue({
+                                fieldId: 'custrecord_tss_state_code',
+                                value: null,
+                                //ignoreFieldChange: false,
+                                //forceSyncSourcing: false
+                            });
+                        }
+
+                    }
+
+                }
+
+                return true;
+            }
+            catch (e) {
+                log.error("Error.. in validateField", e);
+            }
+
+        }
+
+        /**
+         * Validation function to be executed when sublist line is committed.
+         *
+         * @param {Object} scriptContext
+         * @param {Record} scriptContext.currentRecord - Current form record
+         * @param {string} scriptContext.sublistId - Sublist name
+         *
+         * @returns {boolean} Return true if sublist line is valid
+         *
+         * @since 2015.2
+         */
+        function validateLine(scriptContext) {
+
+        }
+
+        /**
+         * Validation function to be executed when sublist line is inserted.
+         *
+         * @param {Object} scriptContext
+         * @param {Record} scriptContext.currentRecord - Current form record
+         * @param {string} scriptContext.sublistId - Sublist name
+         *
+         * @returns {boolean} Return true if sublist line is valid
+         *
+         * @since 2015.2
+         */
+        function validateInsert(scriptContext) {
+
+        }
+
+        /**
+         * Validation function to be executed when record is deleted.
+         *
+         * @param {Object} scriptContext
+         * @param {Record} scriptContext.currentRecord - Current form record
+         * @param {string} scriptContext.sublistId - Sublist name
+         *
+         * @returns {boolean} Return true if sublist line is valid
+         *
+         * @since 2015.2
+         */
+        function validateDelete(scriptContext) {
+
+        }
+
+        /**
+         * Validation function to be executed when record is saved.
+         *
+         * @param {Object} scriptContext
+         * @param {Record} scriptContext.currentRecord - Current form record
+         * @returns {boolean} Return true if record is valid
+         *
+         * @since 2015.2
+         */
+        function saveRecord(scriptContext) {
+            try {
+                var isDuplicate = false;
+                var current_record = scriptContext.currentRecord;
+                var rec_id = current_record.id;
+                var Name = current_record.getText({ fieldId: "custrecord_tss_state_name" });
+                if (_logValidation(Name)) {
+                    var a_Filters = new Array();
+                    var a_Columns = new Array();
+                    a_Filters.push(search.createFilter({
+                        name: 'isinactive',
+                        operator: 'is',
+                        values: 'F'
+                    }));
+                    a_Filters.push(search.createFilter({
+                        name: 'name',
+                        operator: 'is',
+                        values: Name
+                    }));
+                    a_Columns.push(search.createColumn({ name: 'internalid' }));
+                    var name_search = search.create({
+                        type: 'customrecord_tss_gst_state_master',
+                        filters: a_Filters,
+                        columns: a_Columns
+                    });
+                    name_search.run().each(function (result) {
+                        var s_InternalID = result.getValue({
+                            name: 'internalid'
+                        });
+                        if (s_InternalID != rec_id) {
+                            isDuplicate = true;
+                            return false;
+                        }
+                        return true;
+                    });
+                    log.debug("Is State Name Duplicate  in saveRecord", isDuplicate);
+                    if (isDuplicate == false) {
+                        return true;
+                    }
+                    else {
+                        alert('User cannot enter duplicate record for State Master. The State Name is already exists : ' + Name);
+                        return false;
+                    }
+                }
+                else {
+                    return true;
+                }
+
+            }
+            catch (e) {
+                log.error("Error in saveRecord", e);
+            }
+
+        }
+        function _logValidation(value) {
+            if (value != 'null' && value != null && value != null && value != '' && value != undefined && value != undefined && value != 'undefined' && value != 'undefined' && value != 'NaN' && value != NaN) {
+                return true;
+            }
+            else {
+                return false;
+            }
+        }
+
+        return {
+            //      pageInit: pageInit,
+            fieldChanged: fieldChanged,
+            //      postSourcing: postSourcing,
+            //      sublistChanged: sublistChanged,
+            //      lineInit: lineInit,
+            validateField: validateField,
+            //      validateLine: validateLine,
+            //      validateInsert: validateInsert,
+            //     validateDelete: validateDelete,
+            saveRecord: saveRecord
+        };
+
+    });

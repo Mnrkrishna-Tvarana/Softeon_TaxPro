@@ -1,0 +1,26 @@
+<centercategory scriptid="custcentercategory_tss_acc_center_indian_tax_payments">
+  <center>ACCOUNTCENTER</center>
+  <centertab>[scriptid=custcentertab_tss_acc_center_indiatax]</centertab>
+  <label>Payments</label>
+  <links>
+    <link>
+      <linklabel>TDS Payment Processing</linklabel>
+      <linkobject>[scriptid=customscript_tss_sl_tds_payments_criteri.customdeploy1]</linkobject>
+      <!-- <scriptid>customdeploy1</scriptid> -->
+      <linktasktype>SCRIPT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>TDS Payments List</linklabel>
+      <linkobject>[scriptid=customrecord_tss_its_tds_paymentdetails]</linkobject>
+      <linktasktype>LIST</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <!-- <link>
+      <linklabel>TDS Payments List</linklabel>
+      <linkobject>[scriptid=custlink_1_t2682069_361]</linkobject>
+      <linktasktype>LINK</linktasktype>
+      <shortlist>F</shortlist>
+    </link> -->
+  </links>
+</centercategory>

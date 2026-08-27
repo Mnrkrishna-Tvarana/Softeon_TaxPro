@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_sut_tss_gst_journal_creatio">
+  <description>Creates the GST Journal for LUT and redirects to the Invoice</description>
+  <isinactive>F</isinactive>
+  <name>SUT TSS GST Journal Creation</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteApps/com.tvarana.indiantax/Suitelet Scripts/SUT TSS GST Journal Creation.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy1">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>SUT TSS GST Journal Creation</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

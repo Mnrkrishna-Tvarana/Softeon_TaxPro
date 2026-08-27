@@ -1,0 +1,19 @@
+<customlist scriptid="customlist_tss_vendtype">
+  <description>This list will show the type of vendor</description>
+  <isinactive>F</isinactive>
+  <ismatrixoption>F</ismatrixoption>
+  <isordered>T</isordered>
+  <name>Type of Vendor List</name>
+  <customvalues>
+    <customvalue scriptid="val_53680_t2682069_529">
+      <abbreviation>R</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Registered</value>
+    </customvalue>
+    <customvalue scriptid="val_53681_t2682069_250">
+      <abbreviation>N</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Composition</value>
+    </customvalue>
+  </customvalues>
+</customlist>

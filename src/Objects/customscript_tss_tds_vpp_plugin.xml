@@ -1,0 +1,13 @@
+<customglplugin scriptid="customscript_tss_tds_vpp_plugin">
+  <description>Adds custom GL lines on Vendor Prepayment and Vendor Prepayment Application for TDS and creates TDS Bill Relation records.</description>
+  <isinactive>F</isinactive>
+  <loglevel>DEBUG</loglevel>
+  <name>TSS TDS VPP Plugin</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <runasrole></runasrole>
+  <scriptfile>[/SuiteApps/com.tvarana.indiantax/Custom Plugin Scripts/TSS TDS VPP Plugin.js]</scriptfile>
+  <status>RELEASED</status>
+</customglplugin>

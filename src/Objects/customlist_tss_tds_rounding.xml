@@ -1,0 +1,29 @@
+<customlist scriptid="customlist_tss_tds_rounding">
+  <description></description>
+  <isinactive>F</isinactive>
+  <ismatrixoption>F</ismatrixoption>
+  <isordered>T</isordered>
+  <name>TDS Rounding List</name>
+  <customvalues>
+    <customvalue scriptid="val_63671_t2682070_880">
+      <abbreviation>N</abbreviation>
+      <isinactive>F</isinactive>
+      <value>No Rounding</value>
+    </customvalue>
+    <customvalue scriptid="val_63672_t2682070_453">
+      <abbreviation>N</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Nearest to One</value>
+    </customvalue>
+    <customvalue scriptid="val_63673_t2682070_607">
+      <abbreviation>N</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Nearest to Ten</value>
+    </customvalue>
+    <customvalue scriptid="val_63674_t2682070_169">
+      <abbreviation>N</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Nearest to Hundred</value>
+    </customvalue>
+  </customvalues>
+</customlist>

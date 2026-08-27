@@ -1,0 +1,17 @@
+<deploy>
+    <files>
+        <path>~/FileCabinet/SuiteApps/com.tvarana.indiantax/*</path>
+    </files>
+    <objects>
+        <path>~/Objects/*</path>
+    </objects>
+    <translationimports>
+        <path>~/Translations/*</path>
+    </translationimports>
+    <run>
+       <script>
+           <path>~/Objects/customscript_tss_taxpro_sdf_installation.xml</path>
+           <deployment>customdeploy1</deployment>
+       </script>
+    </run>
+</deploy>

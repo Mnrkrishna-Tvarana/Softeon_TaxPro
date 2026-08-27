@@ -1,0 +1,19 @@
+<customlist scriptid="customlist_tss__assessee_code">
+  <description>List of Assessee Code</description>
+  <isinactive>F</isinactive>
+  <ismatrixoption>F</ismatrixoption>
+  <isordered>T</isordered>
+  <name>Assessee Code(Tax)</name>
+  <customvalues>
+    <customvalue scriptid="val_53833_t2682069_700">
+      <abbreviation>I</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Individual</value>
+    </customvalue>
+    <customvalue scriptid="val_53834_t2682069_530">
+      <abbreviation>C</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Company</value>
+    </customvalue>
+  </customvalues>
+</customlist>

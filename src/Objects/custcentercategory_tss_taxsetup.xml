@@ -1,0 +1,49 @@
+<centercategory scriptid="custcentercategory_tss_taxsetup">
+  <center>BASIC</center>
+  <centertab>[scriptid=custcentertab_tss_indiantax]</centertab>
+  <label>Setup</label>
+  <links>
+    <!-- <link>
+      <linklabel>Company Information</linklabel>
+      <linkobject>[scriptid=customrecord_tss_company_info]</linkobject>
+      <linktasktype>LIST</linktasktype>
+      <shortlist>F</shortlist>
+    </link> -->
+    <link>
+      <linklabel>Global Preferences</linklabel>
+      <linkobject>[scriptid=customrecord_tss_global_parameter]</linkobject>
+      <linktasktype>LIST</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>GST State Master</linklabel>
+      <linkobject>[scriptid=customrecord_tss_gst_state_master]</linkobject>
+      <linktasktype>LIST</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>GST Rate Master</linklabel>
+      <linkobject>[scriptid=customrecord_tss_gst_rate_master]</linkobject>
+      <linktasktype>LIST</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>TDS Master</linklabel>
+      <linkobject>[scriptid=customrecord_tss_its_tdsmaster]</linkobject>
+      <linktasktype>LIST</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel></linklabel>
+      <linkobject>[scriptid=customrecord_tss_its_tax_group_deter]</linkobject>
+      <linktasktype>LIST</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel></linklabel>
+      <linkobject>[appid=com.tvarana.indiantax, scriptid=customrecord_tss_its_tcsmaster]</linkobject>
+      <linktasktype>LIST</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+  </links>
+</centercategory>

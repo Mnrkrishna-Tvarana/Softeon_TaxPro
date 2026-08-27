@@ -1,0 +1,13 @@
+<customglplugin scriptid="customscript_tss_itc_plugin">
+  <description>This Script will add custom GL lines on Vendor Bill and Vendor Credit for ITC Ineligible Lines.</description>
+  <isinactive>F</isinactive>
+  <loglevel>DEBUG</loglevel>
+  <name>TSS ITC Plugin</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <runasrole></runasrole>
+  <scriptfile>[/SuiteApps/com.tvarana.indiantax/Custom Plugin Scripts/TSS ITC Plugin.js]</scriptfile>
+  <status>RELEASED</status>
+</customglplugin>

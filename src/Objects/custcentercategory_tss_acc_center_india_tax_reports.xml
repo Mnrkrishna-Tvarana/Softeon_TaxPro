@@ -1,0 +1,77 @@
+<centercategory scriptid="custcentercategory_tss_acc_center_india_tax_reports">
+  <center>ACCOUNTCENTER</center>
+  <centertab>[scriptid=custcentertab_tss_acc_center_indiatax]</centertab>
+  <label>Indian Tax Reports</label>
+  <links>
+    <!-- <link> 
+      <linklabel>GSTR1</linklabel>
+      <linkobject>[appid=com.tvarana.indiantax, scriptid=customsearch_tss_gstr1_2]</linkobject>
+      <linktasktype>SRCH_RSLT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>GSTR 3B-Eligible </linklabel>
+      <linkobject>[appid=com.tvarana.indiantax, scriptid=customsearch_tss_gstr3b_eligible_2]</linkobject>
+      <linktasktype>SRCH_RSLT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>GSTR 3B-Ineligible</linklabel>
+      <linkobject>[appid=com.tvarana.indiantax, scriptid=customsearch_tss_gstr3b_ineligble]</linkobject>
+      <linktasktype>SRCH_RSLT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>GSTR 3B Detail</linklabel>
+      <linkobject>[appid=com.tvarana.indiantax,
+    scriptid=customsearch_tss_tax_gstr3b_detail_2]</linkobject>
+      <linktasktype>SRCH_RSLT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>GST Purchase Register</linklabel>
+      <linkobject>[scriptid=customreport_1059_6330123_sb2_271]</linkobject>
+      <linktasktype>[NOT_YET_SUPPORTED]</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>GST RCM</linklabel>
+      <linkobject>[appid=com.tvarana.indiantax, scriptid=customsearch_tss_rcm__2]</linkobject>
+      <linktasktype>SRCH_RSLT</linktasktype>
+      <shortlist>F</shortlist>
+    </link> -->
+    <link>
+      <linklabel>TDS Transaction Detail</linklabel>
+      <linkobject>[appid=com.tvarana.indiantax, scriptid=customsearch_tss_tds_report]</linkobject>
+      <linktasktype>SRCH_RSLT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <!-- <link>
+      <linklabel>TDS Payable Register</linklabel>
+      <linkobject>[scriptid=customreport_1058_6330123_sb2_603]</linkobject>
+      <linktasktype>[NOT_YET_SUPPORTED]</linktasktype>
+      <shortlist>F</shortlist>
+    </link> -->
+    <!-- <link>
+      <linklabel>VPP TDS Reconciliation Report</linklabel>
+      <linkobject>[appid=com.tvarana.indiantax, scriptid=customscript_tss_sl_vppa_reconcil_report]</linkobject>
+      <scriptid>customdeploy_tss_sl_vppa_reconcil_report</scriptid>
+      <linktasktype>SCRIPT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>VPP GST Reconciliation</linklabel>
+      <linkobject>[appid=com.tvarana.indiantax, scriptid=customscript_tss_sl_vendor_prepayment_gs]</linkobject>
+      <scriptid>customdeploy_tss_sl_vendor_prepayment_gs</scriptid>
+      <linktasktype>SCRIPT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>Deposit GST Reconciliation</linklabel>
+      <linkobject>[appid=com.tvarana.indiantax, scriptid=customscript_sl_tss_itb_deposit_gst_repo]</linkobject>
+      <scriptid>customdeploy1</scriptid>
+      <linktasktype>SCRIPT</linktasktype>
+      <shortlist>F</shortlist>
+    </link> -->
+  </links>
+</centercategory>

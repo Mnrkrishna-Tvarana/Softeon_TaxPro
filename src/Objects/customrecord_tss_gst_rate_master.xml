@@ -1,0 +1,849 @@
+<customrecordtype scriptid="customrecord_tss_gst_rate_master">
+  <accesstype>NONENEEDED</accesstype>
+  <allowattachments>T</allowattachments>
+  <allowinlinedeleting>F</allowinlinedeleting>
+  <allowinlinedetaching>T</allowinlinedetaching>
+  <allowinlineediting>F</allowinlineediting>
+  <allowmobileaccess>F</allowmobileaccess>
+  <allownumberingoverride>F</allownumberingoverride>
+  <allowquickadd>T</allowquickadd>
+  <allowquicksearch>F</allowquicksearch>
+  <allowuiaccess>T</allowuiaccess>
+  <customsegment></customsegment>
+  <description></description>
+  <enabledle>T</enabledle>
+  <enablekeywords>T</enablekeywords>
+  <enablemailmerge>F</enablemailmerge>
+  <enablenumbering>F</enablenumbering>
+  <enableoptimisticlocking>T</enableoptimisticlocking>
+  <enablesystemnotes>T</enablesystemnotes>
+  <externalrolepermissionlevel>NONE</externalrolepermissionlevel>
+  <hierarchical>F</hierarchical>
+  <icon></icon>
+  <iconbuiltin>T</iconbuiltin>
+  <iconindex></iconindex>
+  <includeinsearchmenu>T</includeinsearchmenu>
+  <includename>T</includename>
+  <isinactive>F</isinactive>
+  <isordered>F</isordered>
+  <numberinginit></numberinginit>
+  <numberingmindigits></numberingmindigits>
+  <numberingprefix></numberingprefix>
+  <numberingsuffix></numberingsuffix>
+  <publicpermissionlevel>NONE</publicpermissionlevel>
+  <recordname>GST Rate Master</recordname>
+  <showcreationdate>F</showcreationdate>
+  <showcreationdateonlist>F</showcreationdateonlist>
+  <showid>F</showid>
+  <showlastmodified>F</showlastmodified>
+  <showlastmodifiedonlist>F</showlastmodifiedonlist>
+  <shownotes>T</shownotes>
+  <showowner>F</showowner>
+  <showownerallowchange>F</showownerallowchange>
+  <showowneronlist>F</showowneronlist>
+  <customrecordcustomfields>
+    <customrecordcustomfield scriptid="custrecord_tss_hsn_sac">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description>This field will store the HSN code</description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <enabletextenhance>F</enabletextenhance>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>TEXT</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help>This field will store the HSN code&#xd;
+</help>
+      <isformula>F</isformula>
+      <ismandatory>T</ismandatory>
+      <isparent>F</isparent>
+      <label>HSN/SAC</label>
+      <linktext></linktext>
+      <maxlength>8</maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>T</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab></subtab>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_tss_tax_rate">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>T</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description>This Field will show the tax rate of HSN Code</description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <enabletextenhance>F</enabletextenhance>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>PERCENT</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help>This Field will show the tax rate of HSN Code</help>
+      <isformula>F</isformula>
+      <ismandatory>T</ismandatory>
+      <isparent>F</isparent>
+      <label>Tax Rate</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>T</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab></subtab>
+    </customrecordcustomfield>
+  </customrecordcustomfields>
+  <instances>
+    <instance scriptid="val_63466_t2682069_525">
+      <custrecord_tss_hsn_sac>0000</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>0.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>0000 - Rounded off / Others</name>
+    </instance>
+    <instance scriptid="val_63467_t2682069_913">
+      <custrecord_tss_hsn_sac>0902</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>5.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>0902 COFFEE, WHETHER OR NOT ROASTED OR DECAFFEINATED; COFFEE HUSKS AND SKINS; COFFEE SUBSTITUTES CONTAINING COFFEE IN ANY PROPORTION - COFFEE, NOT ROASTED</name>
+    </instance>
+    <instance scriptid="val_63468_t2682069_467">
+      <custrecord_tss_hsn_sac>16055500</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>16055500 - OTHER SEATS Products Include: Plastic Chairs, Massage Chair, Revolving Chair</name>
+    </instance>
+    <instance scriptid="val_63469_t2682069_398">
+      <custrecord_tss_hsn_sac>1704</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>5.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>1704 - SUGAR CONFECTIONERY (INCLUDING WHITE CHOCOLATE), NOT CONTAINING COCOA</name>
+    </instance>
+    <instance scriptid="val_63470_t2682069_325">
+      <custrecord_tss_hsn_sac>2201</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>2201 - WATERS, INCLUDING NATURAL OR ARTIFICIAL MINERAL WATERS AND AERATED WATERS, NOT CONTAINING ADDED SUGAR OR OTHER SWEETENING MATTER NOR FLAVOURED; ICE AND SNOW</name>
+    </instance>
+    <instance scriptid="val_63471_t2682069_228">
+      <custrecord_tss_hsn_sac>2210</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>2210 - Mineral Water Tin</name>
+    </instance>
+    <instance scriptid="val_63472_t2682069_536">
+      <custrecord_tss_hsn_sac>3402</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>3402 - ORGANIC SURFACE-ACTIVE AGENTS (OTHER THAN SOAP), SURFACE-ACTIVE PREPARATIONS, WASHING PREPARATIONS (INCLUDING AUXILIARY WASHING PREPARATIONS) AND CLEANING PREPARATIONS, WHETHER OR NOT CONTAINING SOAP, OTHER THAN THOSE OF HEADING 3401</name>
+    </instance>
+    <instance scriptid="val_63473_t2682069_307">
+      <custrecord_tss_hsn_sac>42021250</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>42021250 - Laptop Bags</name>
+    </instance>
+    <instance scriptid="val_63474_t2682069_672">
+      <custrecord_tss_hsn_sac>48191010</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>12.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>48191010  - CARTONS, BOXES, CASES, BAGS AND OTHER PACKING CONTAINERS, OF PAPER, PAPERBOARD, CELLULOSE WADDING OR WEBS OF CELLULOSE FIBRES; BOX FILES, LETTER TRAYS, AND SIMILAR ARTICLES, OF PAPER OR PAPERBOARD OF A KIND USED IN OFFICES, SHOPS OR THE LIKE 4819 10 CARTONS, BOXES, CASES, BAGS AND OTHER</name>
+    </instance>
+    <instance scriptid="val_63475_t2682069_232">
+      <custrecord_tss_hsn_sac>4820</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>12.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>4820 - REGISTERS, ACCOUNT BOOKS, NOTE BOOKS, ORDER BOOKS, RECEIPT BOOKS, LETTER PADS, MEMORANDUM PADS, DIARIES AND SIMILAR ARTICLES, EXCISE BOOKS, BLOTTING-PADS, BINDERS (LOOSELEAF OR OTHER), FOLDERS, FILE COVERS, MANIFOLD BUSINESS FORMS, INTERLEAVED CARBON SETS AND OTHER ARTICLES OF STATIONERY, OF</name>
+    </instance>
+    <instance scriptid="val_63476_t2682069_955">
+      <custrecord_tss_hsn_sac>48201090</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>12.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>48201090 - REGISTERS, ACCOUNT BOOKS, NOTE BOOKS, ORDER BOOKS, RECEIPT BOOKS, LETTER PADS, MEMORANDUM PADS, DIARIES AND SIMILAR ARTICLES, EXCISE BOOKS, BLOTTING-PADS, BINDERS (LOOSE-LEAF OR OTHER), FOLDERS, FILE COVERS, MANIFOLD BUSINESS FORMS, INTERLEAVED CARBON SETS AND OTHER ARTICLES OF STATIONERY</name>
+    </instance>
+    <instance scriptid="val_63477_t2682069_278">
+      <custrecord_tss_hsn_sac>49011010</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>5.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>49011010 - PRINTED BOOKS, BROCHURES, LEAFLETS AND SIMILAR PRINTED MATTER, WHETHER OR NOT IN SINGLE SHEETS IN SINGLE SHEETS, WHETHER OR NOT FOLDED : PRINTED BOOKS</name>
+    </instance>
+    <instance scriptid="val_63478_t2682069_754">
+      <custrecord_tss_hsn_sac>49111090</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>49111090 - OTHR ADVRTSG MATTER PRINTED ,Products include: Corporate Gifting, Brochure Printing, Challan Book, Amazon Gift Voucher, Acrylic Sandwich Board, Retailer, Printing Flex, Retailer</name>
+    </instance>
+    <instance scriptid="val_63479_t2682069_941">
+      <custrecord_tss_hsn_sac>61013010</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>61013010 - MENS OR BOYS OVERCOATS, CARCOATS, CAPES, CLOAKS, ANORAKS (INCLUDING SKI-JACKETS), WIND-CHEATERS, WINDJACKETS AND SIMILAR ARTICLES, KNITTED OR CROCHETED, OTHER THAN THOSE OF HEADING 6103 - OF MAN-MADE FIBRES : OF SYNTHETIC FIBRES</name>
+    </instance>
+    <instance scriptid="val_63480_t2682069_396">
+      <custrecord_tss_hsn_sac>6109</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>5.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>6109 - T-SHIRTS, SINGLETS AND OTHER VESTS, KNITTED OR CROCHETED</name>
+    </instance>
+    <instance scriptid="val_63481_t2682069_860">
+      <custrecord_tss_hsn_sac>621020</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>5.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>621020 - Other garments, of the type described in sub-headings 6201 11 to 6201 19</name>
+    </instance>
+    <instance scriptid="val_63482_t2682069_375">
+      <custrecord_tss_hsn_sac>691200</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>12.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>691200 - Ceramic tableware, kitchenware, other household articles and toilet articles, other than of porcelain or china</name>
+    </instance>
+    <instance scriptid="val_63483_t2682069_329">
+      <custrecord_tss_hsn_sac>7013</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>7013 - GLASSWARE OF A KIND USED FOR TABLE, KITCHEN, TOILET, OFFICE, INDOOR DECORATION OR SIMILAR PURPOSES (OTHER THAN THAT OF HEADING 7010 OR 7018)</name>
+    </instance>
+    <instance scriptid="val_63484_t2682069_354">
+      <custrecord_tss_hsn_sac>70133700</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>70133700 - GLASSWARE OF A KIND USED FOR TABLE, KITCHEN, TOILET, OFFICE, INDOOR DECORATION OR SIMILAR PURPOSES (OTHER THAN THAT OF HEADING 7010 OR 7018) - OTHER DRINKING GLASSES, OTHER THAN OF GLASS-CERAMICS: -- OTHER</name>
+    </instance>
+    <instance scriptid="val_63485_t2682069_231">
+      <custrecord_tss_hsn_sac>7322</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>7322:Radiators     for     central     heating,     not electrically  heated,  and  parts  thereof,  of iron  or  steel;  air  heaters  and  hot  air  20 distributors  (including  distributors  which can  also  distribute  fresh  or  conditioned air), not electrically heated, incorporating a motor-d</name>
+    </instance>
+    <instance scriptid="val_63486_t2682069_173">
+      <custrecord_tss_hsn_sac>7323</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>7323 - TABLE, KITCHEN OR OTHER HOUSEHOLD ARTICLES AND PARTS THEREOF, OF IRON OR STEEL; IRON OR STEEL WOOL; POT SCOURERS AND SCOURING OR POLISHING PADS, GLOVES AND THE LIKE, OF IRON OR STEEL</name>
+    </instance>
+    <instance scriptid="val_63487_t2682069_485">
+      <custrecord_tss_hsn_sac>831000</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>831000 - Staff Welfare</name>
+    </instance>
+    <instance scriptid="val_63488_t2682069_619">
+      <custrecord_tss_hsn_sac>8443</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>8443 - PRINTING MACHINERY USED FOR PRINTING BY MEANS OF PLATES, CYLINDERS AND OTHER PRINTING COMPONENTS OF HEADING 8442; OTHER PRINTERS, COPYING MACHINES AND FACSIMILE MACHINES, WHETHER OR NOT COMBINED; PARTS AND ACCESSORIES THEREOF - Printing machinery used for printing by means of plates,cylinders</name>
+    </instance>
+    <instance scriptid="val_63489_t2682069_173">
+      <custrecord_tss_hsn_sac>84713010</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>84713010  - AUTOMATIC DATA PROCESSING MACHINES AND UNITS THEREOF; MAGNETIC OR OPTICAL READERS, MACHINES FOR TRANSCRIBING DATA ON TO DATA MEDIA IN CODED FORM AND MACHINES FOR PROCESSING SUCH DATA, NOT ELSEWHERE SPECIFIED OR INCLUDED - PORTABLE AUTOMATIC DATA PROCESSING MACHINES, WEIGHING NOT MORE THA</name>
+    </instance>
+    <instance scriptid="val_63490_t2682069_582">
+      <custrecord_tss_hsn_sac>84713090</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>84713090</name>
+    </instance>
+    <instance scriptid="val_63491_t2682069_128">
+      <custrecord_tss_hsn_sac>84716040</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>84716040 - AUTOMATIC DATA PROCESSING MACHINES AND UNITS THEREOF; MAGNETIC OR OPTICAL READERS, MACHINES FOR TRANSCRIBING DATA ON TO DATA MEDIA IN CODED FORM AND MACHINES FOR PROCESSING SUCH DATA, NOT ELSEWHERE SPECIFIED OR INCLUDED - INPUT OR OUTPUT UNITS, WHETHER OR NOT CONTAINING STORAGE UNITS IN T</name>
+    </instance>
+    <instance scriptid="val_63492_t2682069_523">
+      <custrecord_tss_hsn_sac>84716050</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>84716050 - AUTOMATIC DATA PROCESSING MACHINES AND UNITS THEREOF; MAGNETIC OR OPTICAL READERS, MACHINES FOR TRANSCRIBING DATA ON TO DATA MEDIA IN CODED FORM AND MACHINES FOR PROCESSING SUCH DATA, NOT ELSEWHERE SPECIFIED OR INCLUDED - INPUT OR OUTPUT UNITS, WHETHER OR NOT CONTAINING STORAGE UNITS IN T</name>
+    </instance>
+    <instance scriptid="val_63493_t2682069_118">
+      <custrecord_tss_hsn_sac>84716060</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>84716060 - AUTOMATIC DATA PROCESSING MACHINES AND UNITS THEREOF; MAGNETIC OR OPTICAL READERS, MACHINES FOR TRANSCRIBING DATA ON TO DATA MEDIA IN CODED FORM AND MACHINES FOR PROCESSING SUCH DATA, NOT ELSEWHERE SPECIFIED OR INCLUDED - INPUT OR OUTPUT UNITS, WHETHER OR NOT CONTAINING STORAGE UNITS IN T</name>
+    </instance>
+    <instance scriptid="val_63494_t2682069_685">
+      <custrecord_tss_hsn_sac>84735000</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>84735000 - PARTS AND ACCESSORIES (OTHER THAN COVERS, CARRYING CASES AND THE LIKE) SUITABLE FOR USE SOLELY OR PRINCIPALLY WITH MACHINES OF HEADINGS 8469 TO 8472 PARTS AND ACCESSORIES EQUALLY SUITABLE FOR USE WITH MACHINES OF TWO OR MORE OF THE HEADINGS 8469 TO 8472</name>
+    </instance>
+    <instance scriptid="val_63495_t2682069_259">
+      <custrecord_tss_hsn_sac>8474</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>8474 - MACHINERY FOR SORTING, SCREENING, SEPARATING, WASHING, CRUSHING, GRINDING, MIXING OR KNEADING EARTH, STONE, ORES OR OTHER MINERAL SUBSTANCES, IN SOLID (INCLUDING POWDER OR PASTE) FORM; MACHINERY FOR AGGLOMERATING, SHAPING OR MOULDING SOLID MINERAL FUELS, CERAMIC PASTE, UNHARDENED CEMENTS, PLA</name>
+    </instance>
+    <instance scriptid="val_63496_t2682069_628">
+      <custrecord_tss_hsn_sac>8479</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>8479 - MACHINES AND MECHANICAL APPLIANCES HAVING INDIVIDUAL FUNCTIONS, NOT SPECIFIED OR INCLUDED ELSEWHERE IN THIS CHAPTER</name>
+    </instance>
+    <instance scriptid="val_63497_t2682069_123">
+      <custrecord_tss_hsn_sac>8481</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>8481 - TAPS, COCKS, VALVES AND SIMILAR APPLIANCES FOR PIPES, BOILER SHELLS, TANKS, VATS OR THE LIKE, INCLUDING PRESSURE-REDUCING VALVES AND THE RMOSTATICALLY CONTROLLED VALVES</name>
+    </instance>
+    <instance scriptid="val_63498_t2682069_629">
+      <custrecord_tss_hsn_sac>85044030</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>85044030  -ELECTRICAL TRANSFORMERS, STATIC CONVERTERS (FOR EXAMPLE, RECTIFIERS) AND INDUCTORS -STATIC CONVERTERS: BATTERY CHARGERS</name>
+    </instance>
+    <instance scriptid="val_63499_t2682069_774">
+      <custrecord_tss_hsn_sac>85044090</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>85044090 - Uninterruptible Power Supply</name>
+    </instance>
+    <instance scriptid="val_63500_t2682069_327">
+      <custrecord_tss_hsn_sac>8516</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>8516 - ELECTRIC INSTANTANEOUS OR STORAGE WATER HEATERS AND IMMERSION HEATERS; ELECTRIC SPACE HEATING APPARATUS AND SOIL HEATING APPARATUS; ELECTRO-THERMIC HAIR-DRESSING APPARATUS (FOR EXAMPLE, HAIR DRYERS, HAIR CURLERS, CURLING TONG HEATERS) AND HAND DRYERS; ELECTRIC SMOOTHING IRONS; OTHER ELECTRO-</name>
+    </instance>
+    <instance scriptid="val_63501_t2682069_678">
+      <custrecord_tss_hsn_sac>85176290</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>85176290 Electrical machinery and equipment and parts thereof; sound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles</name>
+    </instance>
+    <instance scriptid="val_63502_t2682069_927">
+      <custrecord_tss_hsn_sac>85176930</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>85176930 - Other: Routers</name>
+    </instance>
+    <instance scriptid="val_63503_t2682069_715">
+      <custrecord_tss_hsn_sac>85176940</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>85176940 - TELEPHONE SETS, INCLUDING TELEPHONES FOR CELLULAR NETWORKS OR FOR OTHER WIRELESS NETWORKS; OTHER APPARATUS FOR THE TRANSMISSION OR RECEPTION OF VOICE, IMAGES OR OTHER DATA, INCLUDING APPARATUS FOR COMMUNICATION IN A WIRED OR WIRELESS NETWORK (SUCH AS A LOCAL OR WIDE AREA NETWORK), OTHER T</name>
+    </instance>
+    <instance scriptid="val_63504_t2682069_442">
+      <custrecord_tss_hsn_sac>85183000</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>85183000 - MICROPHONES AND STANDS THEREFOR; LOUDSPEAKERS, WHETHER OR NOT MOUNTED IN THEIR ENCLOSURES; HEADPHONES AND EARPHONES, WHETHER OR NOT COMBINED WITH A MICROPHONE, AND SETS CONSISTING OF A MICROPHONE AND ONE OR MORE LOUDSPEAKERS; AUDIOFREQUENCY ELECTRIC AMPLIFIERS; ELECTRIC SOUND AMPLIFIER SE</name>
+    </instance>
+    <instance scriptid="val_63505_t2682069_442">
+      <custrecord_tss_hsn_sac>852352</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>852352 - Smart cards</name>
+    </instance>
+    <instance scriptid="val_63506_t2682069_272">
+      <custrecord_tss_hsn_sac>85235910</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>85235910 - DISCS, TAPES, SOLID-STATE NON-VOLATILE STORAGE DEVICES, SMART CARDS AND OTHER MEDIA FOR THE RECORDING OF SOUND OR OF OTHER PHENOMENA, WHETHER OR NOT RECORDED, INCLUDING MATRICES AND MASTERS PRODUCTION OF DISCS, BUT EXCLUDING PRODUCTS OF CHAPTER 37 - SEMI-CONDUCTOR MEDIA -- OTHER --- PROXI</name>
+    </instance>
+    <instance scriptid="val_63507_t2682069_306">
+      <custrecord_tss_hsn_sac>85238020</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>85238020 - DISCS, TAPES, SOLID-STATE NON-VOLATILE STORAGE DEVICES, SMART CARDS AND OTHER MEDIA FOR THE RECORDING OF SOUND OR OF OTHER PHENOMENA, WHETHER OR NOT RECORDED, INCLUDING MATRICES AND MASTERS PRODUCTION OF DISCS, BUT EXCLUDING PRODUCTS OF CHAPTER 37 - OTHER --- INFORMATION TECHNOLOGY SOFTWA</name>
+    </instance>
+    <instance scriptid="val_63508_t2682069_866">
+      <custrecord_tss_hsn_sac>85258020</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>85258020 - TRANSMISSION APPARATUS FOR RADIO BROADCASTING OR TELEVISION, WHETHER OR NOT INCORPORATING RECEPTION APPARATUS OR SOUND RECORDING OR REPRODUCING APPARATUS; TELEVISION CAMERAS, DIGITAL CAMERAS AND VIDEO CAMERA RECORDERS - TELEVISION CAMERAS, DIGITAL CAMERAS AND VIDEO CAMERA RECORDERS --- DI</name>
+    </instance>
+    <instance scriptid="val_63509_t2682069_869">
+      <custrecord_tss_hsn_sac>85285200</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>85285200 - Capable of directly connecting to and designed for use with an automatic data processing machine of heading 8471</name>
+    </instance>
+    <instance scriptid="val_63510_t2682069_139">
+      <custrecord_tss_hsn_sac>85285900</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>28.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>85285900 - MONITORS AND PROJECTORS, NOT INCORPORATING TELEVISION RECEPTION APPARATUS. RECEPTION APPARATUS FOR TELEVISION, WHETHER OR NOT INCORPORATING RADIO-BROADCAST RECEIVER OR SOUND OR VIDEO RECORDING OR REPRODUCING APPARATUS - OTHER MONITORS -- OTHER</name>
+    </instance>
+    <instance scriptid="val_63511_t2682069_216">
+      <custrecord_tss_hsn_sac>85287219</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>28.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>85287219 - MONITORS AND PROJECTORS, NOT INCORPORATING TELEVISION RECEPTION APPARATUS. RECEPTION APPARATUS FOR TELEVISION, WHETHER OR NOT INCORPORATING RADIO-BROADCAST RECEIVER OR SOUND OR VIDEO RECORDING OR REPRODUCING APPARATUS - RECEPTION APPARATUS FOR TELEVISION, WHETHER OR NOT INCORPORATING RADI</name>
+    </instance>
+    <instance scriptid="val_63512_t2682069_117">
+      <custrecord_tss_hsn_sac>853190</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>853190 - ELECTRIC SOUND OR VISUAL SIGNALLING APPARATUS (FOR EXAMPLE, BELLS, SIRENS, INDICATOR PANELS, BURGLAR OR FIRE ALARMS), OTHER THAN THOSE OF HEADING 8512 OR 8530 PARTS</name>
+    </instance>
+    <instance scriptid="val_63513_t2682069_396">
+      <custrecord_tss_hsn_sac>8543</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>8543 - ELECTRICAL MACHINES AND APPARATUS HAVING INDIVIDUAL FUNCTIONS, NOT SPECIFIED OR INCLUDING ELSEWHERE IN THIS CHAPTER</name>
+    </instance>
+    <instance scriptid="val_63514_t2682069_382">
+      <custrecord_tss_hsn_sac>8543</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>8543 - ELECTRICAL MACHINES AND APPARATUS HAVING INDIVIDUAL FUNCTIONS, NOT SPECIFIED OR INCLUDING ELSEWHERE IN THIS CHAPTER</name>
+    </instance>
+    <instance scriptid="val_63515_t2682069_112">
+      <custrecord_tss_hsn_sac>85437099</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>85437099 - ELECTRICAL MACHINES AND APPARATUS HAVING INDIVIDUAL FUNCTIONS, NOT SPECIFIED OR INCLUDED ELSEWHERE IN THIS CHAPTER - OTHER MACHINES AND APPARATUS --- OTHER ---- OTHER</name>
+    </instance>
+    <instance scriptid="val_63516_t2682069_968">
+      <custrecord_tss_hsn_sac>85444992</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>85444992 - INSULATED (INCLUDING ENAMELLED OR ANODISED) WIRE, CABLE (INCLUDING CO-AXIAL CABLE) AND OTHER INSULATED ELECTRIC CONDUCTORS, WHETHER OR NOT FITTED WITH CONNECTORS; OPTICAL FIBRE CABLES, MADE UP OF INDIVIDUALLY SHEATHED FIBRES, WHETHER OR NOT ASSEMBLED WITH ELECTRIC CONDUCTORS OR FITTED WIT</name>
+    </instance>
+    <instance scriptid="val_63517_t2682069_994">
+      <custrecord_tss_hsn_sac>8713</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>8713 Carriages  for  disabled  persons,  whether  or not  motorised or otherwise mechanically propelled</name>
+    </instance>
+    <instance scriptid="val_63518_t2682069_497">
+      <custrecord_tss_hsn_sac>9007</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>9007 - Optical, photographic, cinematographic, measuring, checking, precision, medical or surgical instruments and apparatus; parts and accessories thereof</name>
+    </instance>
+    <instance scriptid="val_63519_t2682069_382">
+      <custrecord_tss_hsn_sac>9401</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>9401: Office chairs</name>
+    </instance>
+    <instance scriptid="val_63520_t2682069_175">
+      <custrecord_tss_hsn_sac>960810</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>12.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>960810 - Ball point pens</name>
+    </instance>
+    <instance scriptid="val_63521_t2682069_314">
+      <custrecord_tss_hsn_sac>9954</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>9954 - Construction services</name>
+    </instance>
+    <instance scriptid="val_63522_t2682069_972">
+      <custrecord_tss_hsn_sac>995419</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>995419 - Services involving Repair, alterations, additions, replacements, renovation, maintenance or remodelling of the buildings covered above.</name>
+    </instance>
+    <instance scriptid="val_63523_t2682069_571">
+      <custrecord_tss_hsn_sac>995461</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>995461 - Electrical installation services including Electrical wiring &amp; fitting services, fire alarm installation services, burglar alarm system installation services.</name>
+    </instance>
+    <instance scriptid="val_63524_t2682069_188">
+      <custrecord_tss_hsn_sac>9963</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>5.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>9963 - Accommodation, food and beverage services</name>
+    </instance>
+    <instance scriptid="val_63525_t2682069_307">
+      <custrecord_tss_hsn_sac>996311</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>12.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>996311 - Room or unit accommodation services provided by Hotels, INN, Guest House, Club etc</name>
+    </instance>
+    <instance scriptid="val_63526_t2682069_306">
+      <custrecord_tss_hsn_sac>996331</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>996331 - SERVICES PROVIDED BY RESTAURANTS, CAFES AND SIMILAR EATING FACILITIES INCLUDING TAKEAWAY SERVICES, ROOM SERVICES AND DOOR DELIVERY OF FOOD.</name>
+    </instance>
+    <instance scriptid="val_63527_t2682069_422">
+      <custrecord_tss_hsn_sac>9985</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>5.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>996331 - Services provided by Restaurants, Cafes and similar eating facilities including takeaway services, Room services and door delivery of food.</name>
+    </instance>
+    <instance scriptid="val_63528_t2682069_769">
+      <custrecord_tss_hsn_sac>996334</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>5.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>996334 - Catering Services in Exhibition halls, Events, Marriage Halls and other outdoor/indoor functions.</name>
+    </instance>
+    <instance scriptid="val_63529_t2682069_927">
+      <custrecord_tss_hsn_sac>996425</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>996425 - Domestic/International Scheduled Air transport services of passengers</name>
+    </instance>
+    <instance scriptid="val_63530_t2682069_520">
+      <custrecord_tss_hsn_sac>996429</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>996429 - Other long-distance transportation services of passengers n.e.c.</name>
+    </instance>
+    <instance scriptid="val_63531_t2682069_565">
+      <custrecord_tss_hsn_sac>996511</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>996511 - Road transport services of Goods including letters, parcels, live animals, household &amp; office furniture, containers etc by refrigerator vehicles, trucks, trailers, man or animal drawn vehicles or any other vehicles.</name>
+    </instance>
+    <instance scriptid="val_63532_t2682069_396">
+      <custrecord_tss_hsn_sac>996601</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>5.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>996601 - Rental services of road vehicles including buses, coaches, cars, trucks and other motor vehicles, with or without operator</name>
+    </instance>
+    <instance scriptid="val_63533_t2682069_147">
+      <custrecord_tss_hsn_sac>996712</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>996712 - Customs House Agent services</name>
+    </instance>
+    <instance scriptid="val_63534_t2682069_988">
+      <custrecord_tss_hsn_sac>996812</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>996812 - Courier services</name>
+    </instance>
+    <instance scriptid="val_63535_t2682069_393">
+      <custrecord_tss_hsn_sac>997111</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>997111 - Central banking services</name>
+    </instance>
+    <instance scriptid="val_63536_t2682069_454">
+      <custrecord_tss_hsn_sac>997132</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>997132 - Life insurance services  (excluding reinsurance services)</name>
+    </instance>
+    <instance scriptid="val_63537_t2682069_906">
+      <custrecord_tss_hsn_sac>997139</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>997139 - Other non-life insurance services (excluding reinsurance services)</name>
+    </instance>
+    <instance scriptid="val_63538_t2682069_391">
+      <custrecord_tss_hsn_sac>997159</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>997159 Other services auxiliary to financial services</name>
+    </instance>
+    <instance scriptid="val_63539_t2682069_751">
+      <custrecord_tss_hsn_sac>997163</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>997163 - Actuarial services</name>
+    </instance>
+    <instance scriptid="val_63540_t2682069_336">
+      <custrecord_tss_hsn_sac>997212</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>997212 - Rental or leasing services involving own or leased non-residential property</name>
+    </instance>
+    <instance scriptid="val_63541_t2682069_781">
+      <custrecord_tss_hsn_sac>9973</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>9973 - Leasing or rental services with or without operator</name>
+    </instance>
+    <instance scriptid="val_63542_t2682069_389">
+      <custrecord_tss_hsn_sac>997313</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>997313 - Leasing or rental services concerning construction machinery and equipment with or without operator</name>
+    </instance>
+    <instance scriptid="val_63543_t2682069_270">
+      <custrecord_tss_hsn_sac>997331</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>997331 - Licensing services for the right to use computer software and databases.</name>
+    </instance>
+    <instance scriptid="val_63544_t2682069_663">
+      <custrecord_tss_hsn_sac>9982</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>9982 - Legal and accounting services</name>
+    </instance>
+    <instance scriptid="val_63545_t2682069_244">
+      <custrecord_tss_hsn_sac>998212</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>998212 - Legal advisory and representation services concerning other fields of law.</name>
+    </instance>
+    <instance scriptid="val_63546_t2682069_419">
+      <custrecord_tss_hsn_sac>998216</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>998216 OTHER LEGAL SERVICES</name>
+    </instance>
+    <instance scriptid="val_63547_t2682069_483">
+      <custrecord_tss_hsn_sac>998223</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>998223 - Payroll services</name>
+    </instance>
+    <instance scriptid="val_63548_t2682069_473">
+      <custrecord_tss_hsn_sac>998231</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>998231 - Corporate tax consulting and preparation services</name>
+    </instance>
+    <instance scriptid="val_63549_t2682069_137">
+      <custrecord_tss_hsn_sac>9983</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>9983 - Other professional, technical and business services</name>
+    </instance>
+    <instance scriptid="val_63550_t2682069_140">
+      <custrecord_tss_hsn_sac>9983</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>9983 - Other professional, technical and business services</name>
+    </instance>
+    <instance scriptid="val_63551_t2682069_980">
+      <custrecord_tss_hsn_sac>998311</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>998311 - Management consulting and management services including financial, strategic, human resources, marketing, operations and supply chain management.</name>
+    </instance>
+    <instance scriptid="val_63552_t2682069_529">
+      <custrecord_tss_hsn_sac>998312</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>998312 - Business consulting services including pubic relations services</name>
+    </instance>
+    <instance scriptid="val_63553_t2682069_571">
+      <custrecord_tss_hsn_sac>998313</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>998313 - Information technology (IT) consulting and support services</name>
+    </instance>
+    <instance scriptid="val_63554_t2682069_864">
+      <custrecord_tss_hsn_sac>998319</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>998319 - Other information technology services n.e.c</name>
+    </instance>
+    <instance scriptid="val_63555_t2682069_323">
+      <custrecord_tss_hsn_sac>998365</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>998365 - Sale of Internet advertising space</name>
+    </instance>
+    <instance scriptid="val_63556_t2682069_430">
+      <custrecord_tss_hsn_sac>998394</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>998394 - Original compilations of facts/information</name>
+    </instance>
+    <instance scriptid="val_63557_t2682069_691">
+      <custrecord_tss_hsn_sac>998397</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>998397 - Sponsorship Services &amp; Brand Promotion Services</name>
+    </instance>
+    <instance scriptid="val_63558_t2682069_439">
+      <custrecord_tss_hsn_sac>998399</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>998399 - Other professional, technical and business services n.e.c.</name>
+    </instance>
+    <instance scriptid="val_63559_t2682069_844">
+      <custrecord_tss_hsn_sac>998422</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>998422 - Internet access services in wired and wireless mode.</name>
+    </instance>
+    <instance scriptid="val_63560_t2682069_976">
+      <custrecord_tss_hsn_sac>998431</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>998431 - On-line text based information such as online books, newpapers, periodicals, directories etc</name>
+    </instance>
+    <instance scriptid="val_63561_t2682069_537">
+      <custrecord_tss_hsn_sac>998433</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>998433 - On-line video content</name>
+    </instance>
+    <instance scriptid="val_63562_t2682069_954">
+      <custrecord_tss_hsn_sac>998439</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>998439 - Other on-line contents n.e.c.</name>
+    </instance>
+    <instance scriptid="val_63563_t2682069_991">
+      <custrecord_tss_hsn_sac>9985</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>9985 - Support services</name>
+    </instance>
+    <instance scriptid="val_63564_t2682069_894">
+      <custrecord_tss_hsn_sac>998511</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>998511 - Executive/retained personnel search services</name>
+    </instance>
+    <instance scriptid="val_63565_t2682069_260">
+      <custrecord_tss_hsn_sac>998513</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>998513 - Contract staffing services</name>
+    </instance>
+    <instance scriptid="val_63566_t2682069_795">
+      <custrecord_tss_hsn_sac>998519</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>998519 - Other employment &amp; labour supply services n.e.c</name>
+    </instance>
+    <instance scriptid="val_63567_t2682069_970">
+      <custrecord_tss_hsn_sac>998525</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>998525 - Guard services</name>
+    </instance>
+    <instance scriptid="val_63568_t2682069_568">
+      <custrecord_tss_hsn_sac>998531</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>998531 - Disinfecting and exterminating services</name>
+    </instance>
+    <instance scriptid="val_63569_t2682069_492">
+      <custrecord_tss_hsn_sac>998533</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>998533  - General cleaning services</name>
+    </instance>
+    <instance scriptid="val_63570_t2682069_321">
+      <custrecord_tss_hsn_sac>998596</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>998596 - Events, Exhibitions, Conventions and trade shows organisation and assistance services</name>
+    </instance>
+    <instance scriptid="val_63571_t2682069_736">
+      <custrecord_tss_hsn_sac>998599</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>998599 - Other support services n.e.c.</name>
+    </instance>
+    <instance scriptid="val_63572_t2682069_485">
+      <custrecord_tss_hsn_sac>9987</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>9987 - Maintenance, repair and installation (except construction) services</name>
+    </instance>
+    <instance scriptid="val_63573_t2682069_578">
+      <custrecord_tss_hsn_sac>998711</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>998711 - Maintenance and repair services of fabricated metal products, except machinery and equipment.</name>
+    </instance>
+    <instance scriptid="val_63574_t2682069_356">
+      <custrecord_tss_hsn_sac>998713</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>998713 - Maintenance and repair services of computers and peripheral equipment</name>
+    </instance>
+    <instance scriptid="val_63575_t2682069_444">
+      <custrecord_tss_hsn_sac>998716</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>998716 - Maintenance and repair services of telecommunication equipments and apparatus</name>
+    </instance>
+    <instance scriptid="val_63576_t2682069_872">
+      <custrecord_tss_hsn_sac>998719</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>998719 - Maintenance and repair services of other machinery and equipments</name>
+    </instance>
+    <instance scriptid="val_63577_t2682069_250">
+      <custrecord_tss_hsn_sac>998729</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>998729 - Maintenance and repair services of other goods n.e.c.</name>
+    </instance>
+    <instance scriptid="val_63578_t2682069_383">
+      <custrecord_tss_hsn_sac>998736</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>998736 - Installation services of electrical machinery and apparatus n.e.c.</name>
+    </instance>
+    <instance scriptid="val_63579_t2682069_209">
+      <custrecord_tss_hsn_sac>999126</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>999126 - Police and fire protection services</name>
+    </instance>
+    <instance scriptid="val_63580_t2682069_995">
+      <custrecord_tss_hsn_sac>999293</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>999293 - Commercial training and coaching services</name>
+    </instance>
+    <instance scriptid="val_63581_t2682069_530">
+      <custrecord_tss_hsn_sac>999294</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>999294 - Other education and training services n.e.c.</name>
+    </instance>
+    <instance scriptid="val_63582_t2682069_768">
+      <custrecord_tss_hsn_sac>999312</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>999312 - Medical and dental services</name>
+    </instance>
+    <instance scriptid="val_63583_t2682069_594">
+      <custrecord_tss_hsn_sac>999512</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>999512 - Services furnished by professional organizations</name>
+    </instance>
+    <instance scriptid="val_63584_t2682069_803">
+      <custrecord_tss_hsn_sac>999612</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>999612 - Motion picture, videotape, television and radio programme production services</name>
+    </instance>
+    <instance scriptid="val_68713_t2682069_991">
+      <custrecord_tss_hsn_sac>998529</custrecord_tss_hsn_sac>
+      <custrecord_tss_tax_rate>18.0%</custrecord_tss_tax_rate>
+      <isinactive>F</isinactive>
+      <name>998529 - Other security services n.e.c.</name>
+    </instance>
+  </instances>
+</customrecordtype>

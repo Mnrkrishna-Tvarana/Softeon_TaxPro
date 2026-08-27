@@ -1,0 +1,52 @@
+<!-- This file is used for locking the content of your SuiteApp when deploying to a NetSuite
+account. -->
+<!-- The configuration below locks all content except for the files and objects specified under the
+apply tag. Use the commented lines as examples. -->
+<!-- This configuration is only applied when the "Apply Installation Preferences" option is provided
+through SuiteCloud SDK. Otherwise this file is ignored. -->
+<!-- For more information, see
+https://system.netsuite.com/app/help/helpcenter.nl?fid=section_1543865613.html -->
+
+<preference type="LOCKING" defaultAction="UNLOCK">
+    <apply action="LOCK">
+        <!-- <object>custcontenttype_myobject</object> -->
+        <!-- <path>~/FileCabinet/SuiteApps/xxx.xxx.xxx/MyScript.js</path> -->
+        <!-- <object>customscript_cli_tss_indian_tax_transact</object>
+        <object>customscript_ue_tss_indian_tax_transacti</object>
+
+        <path>~/FileCabinet/SuiteApps/com.tvarana.indiantax/Client scripts/CLI TSS TDS New.js</path> -->
+
+        <!-- <path>~/FileCabinet/SuiteApps/com.tvarana.indiantax/Client scripts/CLI TSS Indian Tax
+        Transaction.js</path>
+        <path>~/FileCabinet/SuiteApps/com.tvarana.indiantax/User Event Scripts/UE TSS Indian Tax
+        Transaction.js</path>
+        <path>~/FileCabinet/SuiteApps/com.tvarana.indiantax/User Event
+        Scripts/UES_TSS_Location_Validation.js</path>
+        <path>~/FileCabinet/SuiteApps/com.tvarana.indiantax/User Event
+        Scripts/UES_TSS_Creating_TaxGroup_record.js</path> -->
+
+
+        <object>customrecord_tss_itb_runtime_config</object>
+        <object>customlist_tss_gp_tds_calculate</object>
+        <object>customlist_tss_tds_rounding</object>
+
+        <object>customscript_sch_tss_taxpro_daily_maintn</object>
+        <object>customscript_cli_tss_indian_tax_transact</object>
+        <object>customscript_ue_tss_indian_tax_transacti</object>
+        <object>customscript_ues_tss_location_validation</object>
+        <object>customscript_ues_tss_creating_taxgroup</object>
+        <object>customscript_tss_ue_gst_on_journal</object>
+        <object>customscript_cli_tss_vendor_validations</object>
+        <object>customscript_tss_ue_vendor_tax_validatio</object>
+        <object>customscript_cli_tss_gst_on_cust_refund</object>
+        <object>customscript_tss_cs_customer_deposit</object>
+        <object>customscript_cli_tss_india_tax_vpp</object>
+        <object>customscript_tss_cs_tds_customer_payment</object>
+        <object>customscript_tss_it_cs_config_items</object>  <!-- TCS On SALES -->
+        <object>customscript_tss_ue_tds_customer_payment</object>
+        <object>customscript_ue_tss_india_tax_vpp</object>
+        <object>customscript_tss_ue_customer_deposit</object>
+        <object>customscript_ue_tss_gst_on_cust_refund</object>
+
+    </apply>
+</preference>

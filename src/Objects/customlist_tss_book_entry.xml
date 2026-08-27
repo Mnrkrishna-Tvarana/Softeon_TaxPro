@@ -1,0 +1,19 @@
+<customlist scriptid="customlist_tss_book_entry">
+  <description></description>
+  <isinactive>F</isinactive>
+  <ismatrixoption>F</ismatrixoption>
+  <isordered>T</isordered>
+  <name>Book Entry (Tax)</name>
+  <customvalues>
+    <customvalue scriptid="val_53747_t2682069_124">
+      <abbreviation>Y</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Yes</value>
+    </customvalue>
+    <customvalue scriptid="val_53748_t2682069_220">
+      <abbreviation>N</abbreviation>
+      <isinactive>F</isinactive>
+      <value>No</value>
+    </customvalue>
+  </customvalues>
+</customlist>

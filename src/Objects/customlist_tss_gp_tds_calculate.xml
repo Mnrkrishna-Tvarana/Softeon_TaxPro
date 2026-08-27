@@ -1,0 +1,19 @@
+<customlist scriptid="customlist_tss_gp_tds_calculate">
+  <description></description>
+  <isinactive>F</isinactive>
+  <ismatrixoption>F</ismatrixoption>
+  <isordered>T</isordered>
+  <name>TDS Calculate (Base/Gross)</name>
+  <customvalues>
+    <customvalue scriptid="val_63678_t2682070_553">
+      <abbreviation>B</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Base</value>
+    </customvalue>
+    <customvalue scriptid="val_63679_t2682070_266">
+      <abbreviation>G</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Gross</value>
+    </customvalue>
+  </customvalues>
+</customlist>

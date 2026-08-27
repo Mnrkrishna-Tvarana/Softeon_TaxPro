@@ -1,0 +1,34 @@
+<customlist scriptid="customlist_tss_gst_type_of_location">
+  <description>This List contains registration type of Location.</description>
+  <isinactive>F</isinactive>
+  <ismatrixoption>F</ismatrixoption>
+  <isordered>T</isordered>
+  <name>GST Tax Type</name>
+  <customvalues>
+    <customvalue scriptid="val_62886_t2682070_458">
+      <abbreviation>T</abbreviation>
+      <isinactive>F</isinactive>
+      <value>TDS</value>
+    </customvalue>
+    <customvalue scriptid="val_62887_t2682070_655">
+      <abbreviation>R</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Regular</value>
+    </customvalue>
+    <customvalue scriptid="val_62888_t2682070_781">
+      <abbreviation>I</abbreviation>
+      <isinactive>F</isinactive>
+      <value>ISD</value>
+    </customvalue>
+    <customvalue scriptid="val_62889_t2682070_214">
+      <abbreviation>E</abbreviation>
+      <isinactive>F</isinactive>
+      <value>E - Commerce Operator</value>
+    </customvalue>
+    <customvalue scriptid="val_62890_t2682070_715">
+      <abbreviation>S</abbreviation>
+      <isinactive>F</isinactive>
+      <value>SEZ</value>
+    </customvalue>
+  </customvalues>
+</customlist>

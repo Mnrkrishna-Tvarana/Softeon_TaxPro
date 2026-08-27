@@ -1,0 +1,19 @@
+<customlist scriptid="customlist_tss_schedule_type">
+  <description></description>
+  <isinactive>F</isinactive>
+  <ismatrixoption>F</ismatrixoption>
+  <isordered>T</isordered>
+  <name>TDS Schedule Type	</name>
+  <customvalues>
+    <customvalue scriptid="val_67843_t2682069_963">
+      <abbreviation>A</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Amount Based</value>
+    </customvalue>
+    <customvalue scriptid="val_67844_t2682069_443">
+      <abbreviation>P</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Period Ranges	</value>
+    </customvalue>
+  </customvalues>
+</customlist>

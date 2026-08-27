@@ -1,0 +1,105 @@
+<customlist scriptid="customlist_tss_its_section_code">
+  <description></description>
+  <isinactive>F</isinactive>
+  <ismatrixoption>F</ismatrixoption>
+  <isordered>T</isordered>
+  <name>TDS Section Code</name>
+  <customvalues>
+    <customvalue scriptid="val_63592_t2682070_334">
+      <abbreviation>1</abbreviation>
+      <isinactive>F</isinactive>
+      <value>194J</value>
+    </customvalue>
+    <customvalue scriptid="val_63962_t2682069_575">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>6543</value>
+    </customvalue>
+    <customvalue scriptid="val_64168_t2682069_441">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>194Q</value>
+    </customvalue>
+    <customvalue scriptid="val_64860_t2682069_820">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>194H</value>
+    </customvalue>
+    <customvalue scriptid="val_64861_t2682069_791">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>195</value>
+    </customvalue>
+    <customvalue scriptid="val_64862_t2682069_950">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>194C</value>
+    </customvalue>
+    <customvalue scriptid="val_64863_t2682069_643">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>194I (a)</value>
+    </customvalue>
+    <customvalue scriptid="val_64864_t2682069_660">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>194I (b)</value>
+    </customvalue>
+    <customvalue scriptid="val_22229474_6330123_930">
+      <isinactive>F</isinactive>
+      <value>194A</value>
+    </customvalue>
+    <customvalue scriptid="val_22229484_6330123_818">
+      <isinactive>F</isinactive>
+      <value>194J (b)</value>
+    </customvalue>
+    <customvalue scriptid="val_22229494_6330123_770">
+      <isinactive>F</isinactive>
+      <value>194R</value>
+    </customvalue>
+    <customvalue scriptid="val_22991852_6330123_sb2_737">
+      <isinactive>F</isinactive>
+      <value>393(1)[6(iii)D(a)]</value>
+    </customvalue>
+    <customvalue scriptid="val_22991853_6330123_sb2_147">
+      <isinactive>F</isinactive>
+      <value>393(1)[6(iii)D(b)]</value>
+    </customvalue>
+    <customvalue scriptid="val_22991854_6330123_sb2_903">
+      <isinactive>F</isinactive>
+      <value>393(1)[8(ii)]</value>
+    </customvalue>
+    <customvalue scriptid="val_22991855_6330123_sb2_483">
+      <isinactive>F</isinactive>
+      <value>393(1)[1(ii)]</value>
+    </customvalue>
+    <customvalue scriptid="val_22991856_6330123_sb2_888">
+      <isinactive>F</isinactive>
+      <value>393(1)[6(i)]</value>
+    </customvalue>
+    <customvalue scriptid="val_22991857_6330123_sb2_327">
+      <isinactive>F</isinactive>
+      <value>393(1)[2(ii)D(a)]</value>
+    </customvalue>
+    <customvalue scriptid="val_22991858_6330123_sb2_625">
+      <isinactive>F</isinactive>
+      <value>393(1)[2(ii)D(b)]</value>
+    </customvalue>
+    <customvalue scriptid="val_22991859_6330123_sb2_941">
+      <isinactive>F</isinactive>
+      <value>393(1)[5(ii)D(b)]</value>
+    </customvalue>
+    <customvalue scriptid="val_22991860_6330123_sb2_535">
+      <isinactive>F</isinactive>
+      <value>393(1)[5(iii)]</value>
+    </customvalue>
+    <customvalue scriptid="val_22991861_6330123_sb2_570">
+      <isinactive>F</isinactive>
+      <value>393(1)[8(iv)]</value>
+    </customvalue>
+    <customvalue scriptid="val_22991862_6330123_sb2_697">
+      <isinactive>F</isinactive>
+      <value>393(2)</value>
+    </customvalue>
+  </customvalues>
+</customlist>

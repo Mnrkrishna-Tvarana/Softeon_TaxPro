@@ -1,0 +1,24 @@
+<scheduledscript scriptid="customscript_sch_tss_update_tds_relation">
+  <description>If user make changes in TDS Master, then script will also change the TDS Relation records accordingly. If more TDS Relation records are to be affected, then it calls from  User Event script(UES_TSS_TDS_Master_Record) with TDS Relation record Id as parameter.</description>
+  <isinactive>F</isinactive>
+  <name>SCH TSS Update TDS Relation</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteApps/com.tvarana.indiantax/Scheduled Scripts/SCH_TSS_Update_TDS_Relation.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy1">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>SCH TSS Update TDS Relation</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2023-08-04</startdate>
+          <starttime>01:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

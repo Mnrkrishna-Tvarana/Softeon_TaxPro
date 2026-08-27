@@ -1,0 +1,24 @@
+<customlist scriptid="customlist_tss_itb_customer_type">
+  <description></description>
+  <isinactive>F</isinactive>
+  <ismatrixoption>F</ismatrixoption>
+  <isordered>T</isordered>
+  <name>Customer Registration Type</name>
+  <customvalues>
+    <customvalue scriptid="val_70560_t2682069_133">
+      <abbreviation>R</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Registered</value>
+    </customvalue>
+    <customvalue scriptid="val_70561_t2682069_490">
+      <abbreviation>U</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Un-Registered</value>
+    </customvalue>
+    <customvalue scriptid="val_70562_t2682069_186">
+      <abbreviation>E</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Export</value>
+    </customvalue>
+  </customvalues>
+</customlist>
