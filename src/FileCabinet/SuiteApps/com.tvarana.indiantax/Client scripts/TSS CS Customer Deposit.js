@@ -1754,9 +1754,9 @@ define(['N/record', 'N/currentRecord', 'N/search', 'N/ui/dialog', 'N/ui/message'
                         [
                             ["internalid", "anyof", taxcodeInternalid], "AND",
                             ["isinactive", "is", "F"],
-                            "AND",
+                            // "AND",
 
-                            ["taxtype", "anyof", "5", "4"]
+                            // ["taxtype", "anyof", "5", "4"]
 
                         ],
                     columns:

@@ -408,9 +408,9 @@ define(["N/record", "N/search", 'N/error', 'N/runtime'], function (record, searc
                 ["internalid", "anyof", taxCodeId],
                 "AND",
                 ["isinactive", "is", "F"],
-                "AND",
+                // "AND",
 
-                ["taxtype", "anyof", "5", "4"]
+                // ["taxtype", "anyof", "5", "4"]
             ],
             columns: [
                 search.createColumn({ name: "rate" })
