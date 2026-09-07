@@ -97,7 +97,7 @@
           <id>[scriptid=custrecord_tss_its_gststate]</id>
           <label>GST State</label>
           <visible>T</visible>
-          <mandatory>T</mandatory>
+          <mandatory>F</mandatory>
           <displayType>NORMAL</displayType>
           <columnBreak>F</columnBreak>
           <sameRowAsPrevious>F</sameRowAsPrevious>

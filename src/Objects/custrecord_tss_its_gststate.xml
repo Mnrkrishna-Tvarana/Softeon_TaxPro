@@ -17,7 +17,7 @@
   <help>This Field will Store value of GST State&#xd;
 </help>
   <isformula>F</isformula>
-  <ismandatory>T</ismandatory>
+  <ismandatory>F</ismandatory>
   <label>GST State (A)</label>
   <linktext></linktext>
   <maxlength></maxlength>
