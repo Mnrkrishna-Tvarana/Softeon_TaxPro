@@ -173,10 +173,12 @@ define(['N/ui/serverWidget', 'N/log', 'N/search', 'N/record', 'N/redirect', 'N/r
             form.addField({ id: 'class', type: serverWidget.FieldType.SELECT, label: 'Class', source: 'classification' })
         }
         if (runtime.isFeatureInEffect({ feature: 'DEPARTMENTS' })) {
-            form.addField({ id: 'department', type: serverWidget.FieldType.SELECT, label: 'Departement', source: 'department' })
+            var departmentFld = form.addField({ id: 'department', type: serverWidget.FieldType.SELECT, label: 'Departement', source: 'department' });
+            departmentFld.isMandatory = true;
         }
         if (runtime.isFeatureInEffect({ feature: 'LOCATIONS' })) {
             var loc = form.addField({ id: 'location', type: serverWidget.FieldType.SELECT, label: 'Location' });
+            loc.isMandatory = true;
             popluatlocations(params, loc);
         }
 
@@ -564,6 +566,7 @@ define(['N/ui/serverWidget', 'N/log', 'N/search', 'N/record', 'N/redirect', 'N/r
             var stateResult = stateSearch.run().getRange({ start: 0, end: 1 });
             if (stateResult && stateResult.length > 0) {
                 chk.setValue({ fieldId: 'custbody_tss_placeof_supply', value: stateResult[0].getValue('internalid') });
+                chk.setValue({ fieldId: 'custbody_tss_place_of_service', value: stateResult[0].getValue('internalid') });
             }
 
             for (var i = 0; i < selectedObjs.length; i++) {
